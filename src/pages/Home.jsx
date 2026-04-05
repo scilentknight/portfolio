@@ -10,7 +10,6 @@ function Home() {
 
       {/* Container for content */}
       <div className="relative max-w-6xl mx-auto px-6 py-12 flex flex-col-reverse md:flex-row items-center justify-between gap-12 w-full z-10">
-        
         {/* Left side: Text */}
         <div className="md:flex-1 text-center md:text-left flex flex-col items-center md:items-start group">
           <p className="text-teal-400 font-semibold tracking-wide uppercase mb-3 drop-shadow-sm">Welcome to my portfolio</p>
@@ -24,7 +23,10 @@ function Home() {
           </p>
 
           <div className="flex gap-4">
-            <a href="#projects" className="bg-teal-500 text-slate-900 px-8 py-3.5 rounded-full font-bold shadow-[0_0_20px_rgba(20,184,166,0.3)] hover:shadow-[0_0_25px_rgba(20,184,166,0.6)] hover:-translate-y-1 transition-all duration-300">
+            <a
+              href="#projects"
+              className="bg-teal-500 text-slate-900 px-8 py-3.5 rounded-full font-bold shadow-[0_0_20px_rgba(20,184,166,0.3)] hover:shadow-[0_0_25px_rgba(20,184,166,0.6)] hover:-translate-y-1 transition-all duration-300"
+            >
               View My Work
             </a>
             <a href="#contact" className="bg-slate-800 text-white px-8 py-3.5 rounded-full font-bold border border-slate-700 hover:bg-slate-700 hover:-translate-y-1 transition-all duration-300">
@@ -35,7 +37,7 @@ function Home() {
 
         {/* Right side: Image */}
         <div className="md:flex-1 w-full max-w-md relative group perspective">
-          <div className="absolute -inset-1 bg-gradient-to-r from-teal-500 to-cyan-500 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
+          <div className="absolute -inset-1 bg-linear-to-r from-teal-500 to-cyan-500 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
           <div className="relative transform transition-all duration-500 hover:scale-[1.02] hover:rotate-1">
             <img src={myImage} alt="Prakash Pathak" className="w-full h-auto aspect-square object-cover rounded-2xl shadow-2xl border border-slate-800/50" />
           </div>

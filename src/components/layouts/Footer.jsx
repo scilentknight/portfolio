@@ -9,7 +9,9 @@ function Footer() {
       <div className="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-3 gap-12 relative z-10">
         {/* About Section */}
         <div>
-          <h3 className="text-2xl font-extrabold text-teal-400 mb-6 tracking-wide">Prakash<span className="text-white"></span></h3>
+          <h3 className="text-2xl font-extrabold text-teal-400 mb-6 tracking-wide">
+            Prakash<span className="text-white"></span>
+          </h3>
           <p className="text-slate-400 leading-relaxed font-light">
             Passionate developer building modern, responsive, and interactive web experiences using React & Tailwind CSS. I turn ideas into elegant digital solutions.
           </p>
@@ -46,19 +48,42 @@ function Footer() {
         <div>
           <h3 className="text-xl font-semibold text-white mb-6">Connect with Me</h3>
           <div className="flex gap-4 mb-8">
-            <a href="https://github.com/scilentknight" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:text-teal-400 hover:bg-slate-700 transition-all hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(45,212,191,0.3)]">
+            <a
+              href="https://github.com/scilentknight"
+              target="_blank"
+              rel="noreferrer"
+              className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:text-teal-400 hover:bg-slate-700 transition-all hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(45,212,191,0.3)]"
+            >
               <FaGithub className="text-lg" />
             </a>
-            <a href="https://linkedin.com/in/scilentknight02" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:text-cyan-400 hover:bg-slate-700 transition-all hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(6,182,212,0.3)]">
+            <a
+              href="https://linkedin.com/in/scilentknight02"
+              target="_blank"
+              rel="noreferrer"
+              className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:text-cyan-400 hover:bg-slate-700 transition-all hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(6,182,212,0.3)]"
+            >
               <FaLinkedin className="text-lg" />
             </a>
-            <a href="https://facebook.com/scilentknight02" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:text-blue-500 hover:bg-slate-700 transition-all hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59,130,246,0.3)]">
+            <a
+              href="https://facebook.com/scilentknight02"
+              target="_blank"
+              rel="noreferrer"
+              className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:text-blue-500 hover:bg-slate-700 transition-all hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59,130,246,0.3)]"
+            >
               <FaFacebook className="text-lg" />
             </a>
-            <a href="https://mail.google.com/mail/?view=cm&to=scilentknight512@gmail.com" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:text-rose-400 hover:bg-slate-700 transition-all hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(251,113,133,0.3)]">
+            <a
+              href="https://mail.google.com/mail/?view=cm&to=scilentknight512@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+              className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:text-rose-400 hover:bg-slate-700 transition-all hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(251,113,133,0.3)]"
+            >
               <FaEnvelope className="text-lg" />
             </a>
-            <a href="tel:+9779861252006" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:text-green-400 hover:bg-slate-700 transition-all hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(74,222,128,0.3)]">
+            <a
+              href="tel:+9779861252006"
+              className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:text-green-400 hover:bg-slate-700 transition-all hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(74,222,128,0.3)]"
+            >
               <FaPhone className="text-lg" />
             </a>
           </div>
